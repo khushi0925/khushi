@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #dbe6e4, #7cc6b7);
+  color: #2b2b2b;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.cta-btn, button {
+  background: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-btn:hover, button:hover {
+  background: #27ae60;
+}
+
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  color: #333;
+}
+
+.skill-card, .testimonial-card, .hobby-card {
+  background: #ffffff;
+  color: #2c3e50;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.skill-card:hover, .testimonial-card:hover, .hobby-card:hover {
+  transform: scale(1.05);
+  background: #e8f6f3;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
